@@ -6,21 +6,19 @@
     </head>
     <body> 
         <?php
-        $b = "Yappi";
-        for ($ba = 1992; $ba <= date("Y"); $ba++){
-            if ($ba == 1992) {
-                echo '<div style="color:blue">';
-            };
-            if ($ba == date("Y")) {
-                echo '<div style="color:blue">';
-            };
-            if ($ba == 2000) {
-                echo str_replace('2000' , 'Yappi' , $ba);
-            };
-            echo $ba;
-            echo '<br></div>';
-        };
-        
-         ?>
+            $bpx = 9;
+            for ($ba = 1992; $ba <= date("Y"); $ba++){
+                    $bpx = $bpx + 1;
+                    if ($ba == 1992 or $ba == date("Y")) {
+                        echo '<div style="color:blue; font-size:' . $bpx . 'px">' . $ba . '<br></div>' ;
+                    } else {
+                        if ($ba == 2000) {
+                            echo '<div style="color:red; font-size:' . $bpx . 'px"> Ура двухтысячные!!!!!!!<br></div>';
+                        }  else {
+                                echo '<div style="font-size:' . $bpx . 'px">' . $ba . '<br></div>' ;
+                                };
+                            };
+            }    
+        ?>
     </body>    
 </html>
