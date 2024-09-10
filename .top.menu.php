@@ -41,6 +41,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Мой компонент", 
+		"/mycomp/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

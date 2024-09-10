@@ -15,11 +15,12 @@
         <tr>
             <td width="300"><center>ZooПриют О_о</center></td>
             <td>
-                <center><a href="/index.php">Главная</a> / 
-                <a href="/News/index.php">Новости</a> / 
+                <><a href="/">Главная</a> / 
+                <a href="/News/">Новости</a> / 
                 <a href="/nashi-zveryata/">Наши зверята</a> / 
                 <a href="/Pitomniki/index.php">Питомники</a> / 
-                <a href="/About/index.php">О приюте</a> </center>
+                <a href="/About/index.php">О приюте</a> /
+                <a href="/mycomp/">Мой компонент</a> </center>
             </td>
             <td width="300"><center>Вход / Регистрация</center></td>
         </tr>
